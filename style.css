@@ -2,6 +2,10 @@
     font-family: Roboto;
     src: url(fonts/Roboto-Regular.ttf)
 }
+@font-face{
+    font-family: Roboto-light-itallic;
+    src: url(fonts/Roboto-LightItalic.ttf)
+}
 *{
     font-family: Roboto;
 }
@@ -32,7 +36,7 @@ body{
 }
 
 .hero-content{
-    padding: 64px 86px;
+    padding: 120px 86px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,11 +77,12 @@ img{
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
-    padding: 8px 24px;
+    padding: 8px 32px;
     font-weight: 500;
+    font-size: larger;
     color:white;
     flex: auto;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 .block-two{
@@ -86,11 +91,12 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 32px;
+    padding: 105px;
 }
 .container{
     display: flex;
     justify-content: space-between;
+    gap: 64px;
     
 }
 .box{
@@ -105,6 +111,12 @@ img{
 
 .subcontainer{
     max-width: 158px;
+    color: gray;
+    
+    
+}
+.subcontainer .text{
+    margin-top: 8px;;
 }
 h2{
     font-size: 32px;
@@ -115,9 +127,69 @@ h2{
     margin-bottom: 32px;
 }
 
+
+.block-three{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 114px 64px;
+}
+.qContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-family: Roboto-light-itallic;
+    text-align: justify;
+    margin-bottom: 32px;
+}
+.author{
+    font-weight: bold;
+    margin-left: auto;
+    font-size: 24px;
+}
+
+.block-four{
+    padding: 105px 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bluebox{
+    background-color: #3882F6;
+    padding: 48px 128px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 128px;
+}
+.button2{
+    background-color: #3882F6;
+    border: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-weight: 500;
+    color:white;
+    flex: auto;
+    margin-top: 8px;
+}
+.ctaText{
+    color:#E5E7EB;
+    font-size: 16px;
+}
+#cta{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 .footer{
     background-color: #1F2937;
-    padding: 24px;
+    padding:  48px 24px;
     text-align: center;
     font-size: 18px;
     color: #E5E7EB;
